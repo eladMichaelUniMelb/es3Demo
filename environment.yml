@@ -3,11 +3,12 @@ channels:
   - conda-forge
 dependencies:
   - numpy
-  - psutil
-  - toolz
   - matplotlib
-  - dill
-  - pandas
-  - partd
-  - bokeh
-  - dask
+  - mpl_toolkits
+  - random
+  - math
+  - copy
+  - progressbar
+  - celluloid
+  - IPython
+  - ffmpeg
