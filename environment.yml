@@ -4,11 +4,8 @@ channels:
 dependencies:
   - numpy
   - matplotlib
-  - mpl_toolkits
-  - random
-  - math
-  - copy
   - progressbar
-  - celluloid
-  - IPython
-  - ffmpeg
+  - pip
+  - pip:
+    - celluloid
+    - ffmpeg
